@@ -92,7 +92,7 @@
     </nav>
 <!--End Navigation-->
 
-<!--Start Header-->
+<!--Start Header Section-->
 <div class="container-fluid remove-image-marge">
     <div class="image-parent">
         <img class="img-header" src="image/header_image.webp" alt="image-learning-header">
@@ -111,7 +111,37 @@
         <a href="#" class="btn btn-danger">Commencer</a>
     </div>
 </div>
-<!--End Header-->
+<!--End Header Section-->
+
+<!--Start Text Banner-->
+<div class="container-fluid bg-danger text-banner">
+    <div class="row bottom-banner">
+        <div class="col-sm">
+            <h5>
+                <i class="fas fa-book-open mr-3"></i> 100+ Cours en ligne
+            </h5>
+        </div>
+
+        <div class="col-sm">
+            <h5>
+                <i class="fas fa-users mr-3"></i> Instructeurs qualifiés
+            </h5>
+        </div>
+
+        <div class="col-sm">
+            <h5>
+                <i class="fas fa-keyboard mr-3"></i> Accessible en ligne
+            </h5>
+        </div>
+
+        <div class="col-sm">
+            <h5>
+                <i class="fas fa-dollar-sign mr-3"></i> Retour de paiement garanti*
+            </h5>
+        </div>
+    </div>
+</div>
+<!--End Text Banner-->
 
 <!--Font Awesome JS-->
 <script src="js/all.min.js"></script>

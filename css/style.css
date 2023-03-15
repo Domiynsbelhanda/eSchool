@@ -48,3 +48,25 @@
     text-align: center;
     color: #ffffff;
 }
+
+.bottom-banner{
+    color: #fff;
+    padding: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .my-content,
+    .text-banner {
+        display: none;
+    }
+
+    .img-content {
+        top: 50%;
+        left: 10%;
+    }
+
+    .custom-nav .custom-nav-item a {
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+}
