@@ -24,72 +24,73 @@
 </head>
 <body>
 <!--Start Navigation-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">eSchool</a>
-            <span class="navbar-text">Apprendre et mettre en œuvre</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="ms-5 navbar-nav custom-nav">
-                    <li class="nav-item custom-nav-item">
-                        <a href="index.php" class="nav-link">
-                            Accueil
-                        </a>
-                    </li>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">eSchool</a>
+        <span class="navbar-text">Apprendre et mettre en œuvre</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="ms-5 navbar-nav custom-nav">
+                <li class="nav-item custom-nav-item">
+                    <a href="index.php" class="nav-link">
+                        Accueil
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Cours
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Cours
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Paiement
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Paiement
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Profil
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Profil
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Deconnexion
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Deconnexion
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Connexion
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Connexion
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Inscription
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Inscription
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            FeedBack
-                        </a>
-                    </li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        FeedBack
+                    </a>
+                </li>
 
-                    <li class="nav-item custom-nav-item">
-                        <a href="#" class="nav-link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 <!--End Navigation-->
 
 <!--Start Header Section-->
@@ -148,32 +149,62 @@
 <div class="container mt-5">
     <h1 class="text-center"> Cours populaire</h1>
     <!--    Start Most Popular Course 1st Card Deck-->
-    <div class="card-deck mt-4">
-        <a href="" class="btn" style="text-align:left; padding: 0px; margin: 0px">
-            <div class="card">
-                <img src="#" class="card-img-top" alt="Guitar">
-            </div>
+    <div class="row">
+        <div class="col-lg-3 card m-5">
+            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Learn Guitar Esay Way</h5>
+                <h5 class="card-title">
+                    Card title
+                </h5>
                 <p class="card-text">
-                    Lorem ipsum dolor sit amet
-                    consectetur adipiscing elit. Facilis, nemo.
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
                 </p>
+                <a href="#" class="btn btn-primary">S'Inscrire</a>
             </div>
-            <div class="card-footer">
-                <p class="card-text d-inline">
-                    Prix: <small>
-                        <del>$ 2000</del>
-                    </small>
-                    <span class="font-weight-bolder">
-                        $ 200
-                    </span>
+        </div>
+
+        <div class="col-lg-3 card m-5">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Card title
+                </h5>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
                 </p>
-                <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">
-                    S'inscrire
-                </a>
+                <a href="#" class="btn btn-primary">S'Inscrire</a>
             </div>
-        </a>
+        </div>
+
+        <div class="col-lg-3 card m-5">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Card title
+                </h5>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
+                </p>
+                <a href="#" class="btn btn-primary">S'Inscrire</a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 card m-5">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Card title
+                </h5>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
+                </p>
+                <a href="#" class="btn btn-primary">S'Inscrire</a>
+            </div>
+        </div>
     </div>
 </div>
 <!--End Most Popular Course-->
