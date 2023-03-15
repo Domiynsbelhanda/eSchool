@@ -1,0 +1,15 @@
+.navbar-brand{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.custom-nav .custom-nav-item a{
+    color: #fff!important;
+}
+
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border: solid #dc3545 1px;
+    border-radius: 10px;
+}
