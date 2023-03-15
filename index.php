@@ -93,6 +93,24 @@
 <!--End Navigation-->
 
 <!--Start Header-->
+<div class="container-fluid remove-image-marge">
+    <div class="image-parent">
+        <img class="img-header" src="image/header_image.webp" alt="image-learning-header">
+    </div>
+
+    <div class="img-overlay"></div>
+
+    <div class="img-content">
+        <h1 class="my-content">
+            Bienvenue sur eSchool
+        </h1>
+        <small class="my-content">
+            Apprendre et mettre en œuvre.
+        </small>
+        <br>
+        <a href="#" class="btn btn-danger">Commencer</a>
+    </div>
+</div>
 <!--End Header-->
 
 <!--Font Awesome JS-->

@@ -13,3 +13,38 @@
     border: solid #dc3545 1px;
     border-radius: 10px;
 }
+
+.remove-image-marge{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-header{
+    width: 100%;
+    height: 730px;
+    object-fit: cover;
+}
+
+.image-parent{
+    position: relative;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 730px;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.img-content{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    color: #ffffff;
+}
