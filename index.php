@@ -24,7 +24,7 @@
 </head>
 <body>
 <!--Start Navigation-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">eSchool</a>
             <span class="navbar-text">Apprendre et mettre en œuvre</span>
@@ -32,7 +32,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav custom-nav">
+                <ul class="ms-5 navbar-nav custom-nav">
                     <li class="nav-item custom-nav-item">
                         <a href="index.php" class="nav-link">
                             Accueil
@@ -92,6 +92,8 @@
     </nav>
 <!--End Navigation-->
 
+<!--Start Header-->
+<!--End Header-->
 
 <!--Font Awesome JS-->
 <script src="js/all.min.js"></script>
