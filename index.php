@@ -143,6 +143,41 @@
 </div>
 <!--End Text Banner-->
 
+
+<!--Start Most Popular Course-->
+<div class="container mt-5">
+    <h1 class="text-center"> Cours populaire</h1>
+    <!--    Start Most Popular Course 1st Card Deck-->
+    <div class="card-deck mt-4">
+        <a href="" class="btn" style="text-align:left; padding: 0px; margin: 0px">
+            <div class="card">
+                <img src="#" class="card-img-top" alt="Guitar">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Learn Guitar Esay Way</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit. Facilis, nemo.
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="card-text d-inline">
+                    Prix: <small>
+                        <del>$ 2000</del>
+                    </small>
+                    <span class="font-weight-bolder">
+                        $ 200
+                    </span>
+                </p>
+                <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">
+                    S'inscrire
+                </a>
+            </div>
+        </a>
+    </div>
+</div>
+<!--End Most Popular Course-->
+
 <!--Font Awesome JS-->
 <script src="js/all.min.js"></script>
 
