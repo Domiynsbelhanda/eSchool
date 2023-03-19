@@ -65,7 +65,7 @@
                 </li>
 
                 <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="nav-link">
                         Connexion
                     </a>
                 </li>
@@ -208,6 +208,25 @@
     </div>
 </div>
 <!--End Most Popular Course-->
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--Font Awesome JS-->
 <script src="js/all.min.js"></script>
