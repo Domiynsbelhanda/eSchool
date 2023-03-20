@@ -209,6 +209,16 @@
 </div>
 <!--End Most Popular Course-->
 
+<!-- Start Footer -->
+<footer class="container-fluid bg-dark text-center p-2">
+    <small class="text-white">
+        Copyright &copy; 2023 || Designed By Stimack ||
+        <a href="#login">
+            
+        </a>
+    </small>
+</footer>
+
 <!-- Modal -->
 <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -231,7 +241,7 @@
                 <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
                 <input type="password" class="form-control" id="password">
             </div>
-            <button type="submit" class="btn btn-primary">Se connecter</button>
+            <button type="submit" class="btn btn-primary">S'inscrire</button>
         </form>
       </div>
     </div>
