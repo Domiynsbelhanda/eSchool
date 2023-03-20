@@ -39,7 +39,7 @@
                 </li>
 
                 <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="settings/logout.php" class="nav-link">
                         Deconnexion
                     </a>
                 </li>
