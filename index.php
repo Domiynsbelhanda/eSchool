@@ -24,73 +24,9 @@
 </head>
 <body>
 <!--Start Navigation-->
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">eSchool</a>
-        <span class="navbar-text">Apprendre et mettre en œuvre</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="ms-5 navbar-nav custom-nav">
-                <li class="nav-item custom-nav-item">
-                    <a href="index.php" class="nav-link">
-                        Accueil
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Cours
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Paiement
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Profil
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Deconnexion
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="nav-link">
-                        Connexion
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" class="nav-link">
-                        Inscription
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        FeedBack
-                    </a>
-                </li>
-
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+    <?php 
+        include('./header.php');
+    ?>
 <!--End Navigation-->
 
 <!--Start Header Section-->
@@ -210,72 +146,10 @@
 <!--End Most Popular Course-->
 
 <!-- Start Footer -->
-<footer class="container-fluid bg-dark text-center p-2">
-    <small class="text-white">
-        Copyright &copy; 2023 || Designed By Stimack ||
-        <a href="#login">
-            
-        </a>
-    </small>
-</footer>
-
-<!-- Modal -->
-<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModal" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nom d'utilisateur</label>
-                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Adresse email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                <input type="password" class="form-control" id="password">
-            </div>
-            <button type="submit" class="btn btn-primary">S'inscrire</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Connexion</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Adresse email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Se connecter</button>
-            </form>
-      </div>
-    </div>
-  </div>
-</div>
+    <?php
+        include('./footer.php');
+    ?>
+<!-- End Footer -->
 
 <!--Font Awesome JS-->
 <script src="js/all.min.js"></script>
