@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">eSchool</a>
@@ -26,6 +27,11 @@
                     </a>
                 </li>
 
+                <?php 
+                    if (isset($_SESSION['loggedin'])) {
+                        if($_SESSION['loggedin']){
+                ?>
+
                 <li class="nav-item custom-nav-item">
                     <a href="#" class="nav-link">
                         Profil
@@ -38,6 +44,14 @@
                     </a>
                 </li>
 
+                <?php 
+                    }
+                        } ?>
+
+                <?php 
+                    if (!isset($_SESSION['loggedin'])) {
+                ?>
+
                 <li class="nav-item custom-nav-item">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="nav-link">
                         Connexion
@@ -49,6 +63,9 @@
                         Inscription
                     </a>
                 </li>
+
+                <?php 
+                    } ?>
 
                 <li class="nav-item custom-nav-item">
                     <a href="#" class="nav-link">
