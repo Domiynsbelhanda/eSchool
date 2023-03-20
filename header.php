@@ -48,19 +48,13 @@
                     </a>
                 </li>
 
-                <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
-                        Paiement
-                    </a>
-                </li>
-
                 <?php 
                     if (isset($_SESSION['loggedin'])) {
                         if($_SESSION['loggedin']){
                 ?>
 
                 <li class="nav-item custom-nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="profile.php" class="nav-link">
                         Profil
                     </a>
                 </li>
