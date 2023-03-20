@@ -19,7 +19,7 @@
 <!--End Navigation-->
 
 <div class="container" style="margin-top: 182px">
-    <div class="container-xl px-4 mt-4">
+    <div class="">
         <!-- Account page navigation-->
         <div class="row">
             <div class="col-xl-4">
