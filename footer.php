@@ -64,3 +64,15 @@
     </div>
   </div>
 </div>
+
+
+<!--Font Awesome JS-->
+<script src="js/all.min.js"></script>
+
+<!--JQuery Plugin-->
+<script src="js/jquery.min.js"></script>
+
+<!--Bootstrap JS-->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
