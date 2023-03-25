@@ -1,2 +1,2 @@
 # eSchool
- E Learning platform - PHP and MySQL
+ E Learning platform - PHP and MySQL - JavaScript, etc.
