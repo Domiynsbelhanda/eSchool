@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
 	<meta name="author" content="webThemez.com">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -48,7 +48,7 @@ th, td {
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1>Suggestion</h1>
+                    <h1>Suggestion du cours</h1>
                 </div>
             </div>
         </div>
@@ -59,16 +59,16 @@ th, td {
 	<form method="POST" action="">
 		<table border=0 align="center">
 			<th>
-				<h3 class="section-title">Your Suggestion</h3>
+				<h3 class="section-title">Votre suggestion</h3>
 			</th>
 			<tr>
-				<td><input type="text" class="form-control" name="id" placeholder="Full Name"></td>
+				<td><input type="text" class="form-control" name="id" placeholder="Nom complet"></td>
 			</tr>
 			<tr>
-				<td><input type="email" class="form-control" name="email" placeholder="Email Address"></td>
+				<td><input type="email" class="form-control" name="email" placeholder="Adresse email"></td>
 			</tr>
 			<tr>
-				<td><input type="text" class="form-control" name="sub" placeholder="Subject"></td>
+				<td><input type="text" class="form-control" name="sub" placeholder="Sujet"></td>
 			</tr>
 			<tr>
 				<td><textarea rows="10" cols="100" class="form-control" 
@@ -78,7 +78,7 @@ th, td {
 			maxlength="999" style="resize:none"></textarea></td>
 			</tr>
 		</table>
-		<button type="submit" class="btn btn-primary pull-right" name="btnsubmit">Submit</button>
+		<button type="submit" class="btn btn-primary pull-right" name="btnsubmit">Envoyé</button>
 	</form>
 	
 	</div>
@@ -94,16 +94,16 @@ th, td {
 			$email = $_POST["email"];
 			$subject = $_POST["sub"];
 			$msg = $_POST["message"];
-			$query = "INSERT INTO expertsugg(ExpertID,Name,Email_id,Subject,Description) VALUES($id,'$name','$email','$subject','$msg')";
+			$query = "INSERT INTO `expertsugg` (`ExpertID`, `Name`, `Email_id`, `Subject`, `Description`) VALUES ('$id', '$name', '$email', '$subject', '$msg');";
 			$result = mysqli_query($strconn,$query);
 			if($result)
 			{
-				echo "<div class='alert alert-success' role='alert'>Suggestion has sent to admin</div>";
+				echo "<div class='alert alert-success' role='alert'>Votre suggestion a été envoyé à l'admin</div>";
 
 			}
 			else
 			{
-                echo "<div class='alert alert-danger' role='alert'>something went wrong try again</div>";
+                echo "<div class='alert alert-danger' role='alert'>Une erreur c'est produite.</div>";
 				
 			}
 		}
