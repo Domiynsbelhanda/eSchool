@@ -1,23 +1,8 @@
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
-	<meta name="author" content="webThemez.com">
-	<title>eLearning - Free Educational Responsive Web Template </title>
-	<link rel="favicon" href="assets/images/favicon.png">
-	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="assets/css/da-slider.css" />
-	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+	<?php
+		include "head.php";
+	?>
 <style>
 th, td {
     padding:5px;   
@@ -36,7 +21,7 @@ th, td {
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1>Login</h1>
+                    <h1>Connexion</h1>
                 </div>
             </div>
         </div>
@@ -45,25 +30,25 @@ th, td {
 	<form action="" method="post">
 		<table border=0 align="center">
 			<tr>
-				<td><label>Enter your User Name:</label></td>
-				<td><input type="text" class="form-control" name="id" placeholder="User Name"></td>
+				<td><label>Entrer votre nom d'utilisateur:</label></td>
+				<td><input type="text" class="form-control" name="id" placeholder="Nom d'utilisateur"></td>
 			</tr>
 			<tr>
-				<td><label>Enter your Password:</label></td>
-				<td><input type="password" class="form-control" name="pass" placeholder="Password"></td>
+				<td><label>Entrer votre mot de passe:</label></td>
+				<td><input type="password" class="form-control" name="pass" placeholder="Mot de passe"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button name="btnsubmit" class="btn btn-block">Submit</button></td>
+				<td colspan="2" align="center"><button name="btnsubmit" class="btn btn-block">Soumettre</button></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button name="btnforget" class="btn btn-block">Forgot Password?</button></td>
+				<td colspan="2" align="center"><button name="btnforget" class="btn btn-block">Mot de passe oublié?</button></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><a href="reg.php" class="btn btn-block">Create Account?</a></td>
+				<td colspan="2" align="center"><a href="reg.php" class="btn btn-block">Créer un compte?</a></td>
 			</tr>
 			
 			<tr>
-				<td colspan="2" align="center"><a href="expertlogin.php" class="btn btn-block">Login As Expert</a></td>
+				<td colspan="2" align="center"><a href="expertlogin.php" class="btn btn-block">Connexion en tant que professeur</a></td>
 			</tr>
 		</table>
 	</form>
