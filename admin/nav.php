@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
 	<meta name="author" content="webThemez.com">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -31,22 +31,8 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li class="active"><a href="index.php">Home</a></li>
-					<li class="active"><a href="../index.php">Logout</a></li>
-					<!--<li><a href="about.php">About</a></li>
-					<li><a href="fees.php">Fees</a></li>
-					<li><a href="portfolio.php">Portfolio</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.php">Right Sidebar</a></li>
-							<li><a href="#">Dummy Link1</a></li>
-							<li><a href="#">Dummy Link2</a></li>
-							<li><a href="#">Dummy Link3</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.php">Contact</a></li>
-					-->
+					<li class="active"><a href="index.php">Accueil</a></li>
+					<li class="active"><a href="../index.php">Deconnexion</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->

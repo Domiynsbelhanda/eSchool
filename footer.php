@@ -13,6 +13,7 @@
 							<p class="simplenav">
 								<a href="index.php">Accueil</a> | 
 								<a href="login.php">Connexion</a> | 
+								<a href="admin/index.php">Admin</a> | 
 								<a href="login.php">Cours</a> |
 								<a href="contact.php">Contact</a>
 							</p>
