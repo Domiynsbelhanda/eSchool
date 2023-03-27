@@ -34,7 +34,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
-					<h1>Welcome <?php echo $username;?></h1>
+					<h1>Bienvenue <?php echo $username;?></h1>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 	<div id="courses">
 		<section class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<!-- <div class="col-md-4">
 					<div class="featured-box">
 						<a href="Answer.php">
 						<i class="fa fa-cogs fa-2x"></i>
@@ -53,24 +53,24 @@
 						</div>
 						</a>
 					</div>
-				</div>
-				<div class="col-md-4">
+				</div> -->
+				<div class="col-md-6">
 					<div class="featured-box">
 						<a href="Suggestion.php">
-						<i class="fa fa-cogs fa-2x"></i>
+						<i class="fa fa-book fa-2x"></i>
 						<div class="text">
-							<h3>Suggestion to Admin</h3>
+							<h3>Envoyé un cours à l'admin</h3>
 							
 						</div>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<div class="featured-box">
 						<a href="manage.php">
-						<i class="fa fa-cogs fa-2x"></i>
+						<i class="fa fa-user fa-2x"></i>
 						<div class="text">
-							<h3>Manage Profile</h3>
+							<h3>Gestion du profil</h3>
 							
 						</div>
 						</a>
