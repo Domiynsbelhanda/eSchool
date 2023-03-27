@@ -37,18 +37,18 @@
 			<div class="banner-content">
 				<div id="da-slider" class="da-slider">
 					<div class="da-slide">
-						<h2>Online Education</h2>
-						<p>The purpose is to teach</p>
+						<h2>Education en ligne</h2>
+						<p>Contenu adaptée à votre rythme.</p>
 						<div class="da-img"></div>
 					</div>
 					<div class="da-slide">
-						<h2></h2>
-						<p></p>
+						<h2>Cours en informatique</h2>
+						<p>Programmation - Design - Reseau et Télécommunication</p>
 						<div class="da-img"></div>
 					</div>
 					<div class="da-slide">
-						<h2></h2>
-						<p></p>
+						<h2>Apprentissage 100% en ligne</h2>
+						<p>Aprennez de partout dans le monde grâce à votre mobile.</p>
 						<div class="da-img"></div>
 					</div>
 				</div>
@@ -59,12 +59,11 @@
 
 	<div id="courses">
 		<div class="container">
-			<h2>Available Courses</h2>
+			<h2>Cours disponibles</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="featured-box">
 					<a href="login.php">
-						<i class="fa fa-cogs fa-2x"></i>
 						<div class="text">
 							<h3>HTML</h3>
 							This FREE Tutorial will teach you how to design a webpage using HTML.Complete a series of hands-on practice and examination while writing real HTML code.
@@ -75,7 +74,6 @@
 				<div class="col-md-4">
 					<div class="featured-box">
 					<a href="login.php">
-						<i class="fa fa-leaf fa-2x"></i>
 						<div class="text">
 							<h3>CSS</h3>
 							Our CSS Tutorial will teach you how to control the style & layout of websites.Complete a series of practice and examination while filling out actual CSS code.

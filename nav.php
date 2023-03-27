@@ -11,7 +11,7 @@
 					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="index.php">
-					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
+					<img src="assets/images/logo.png" alt="eLearninng-Logo"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
