@@ -66,7 +66,8 @@
 					$name=$_POST['name'];
 					$email=$_POST['email'];
 					$message=$_POST['message'];
-					$strInsert="INSERT INTO feedback(Description,name,email) VALUES('$message','$name','$email')";
+					// $strInsert="INSERT INTO feedback(Description,name,email) VALUES('$message','$name','$email')";
+					$strInsert = "insert into feedback values('$message','$name','$email')";
 					if(mysqli_query($strconn,$strInsert))
 						echo "<div class='alert alert-success' role='alert'>Merci de nous avoir contacté.</div>";
 					else
