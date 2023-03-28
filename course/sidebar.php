@@ -5,7 +5,7 @@ $strconn=mysqli_connect("localhost","root","","project");
 		else{}
 ?>
 <?php echo '<pre>';?>
-<h1>Index</h1>
+<h1>Accueil</h1>
 <ul>
 	<?php
 		$query = "SELECT Title FROM chapter";

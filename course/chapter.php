@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -50,7 +50,7 @@
 				<?php
 				 echo $info;
 				echo '<hr>';
-				echo '<br><a href="#" class="btn">Next>></a>';
+				echo '<br><a href="#" class="btn">Suivant >></a>';
 				?>
 			</div>
 			<div class="col-md-2 col-md-pull-9" style="margin-top:10px;">
