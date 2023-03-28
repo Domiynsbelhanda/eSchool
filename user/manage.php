@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
 	<meta name="author" content="webThemez.com">
-	<title>Manage profile</title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
-					<h1>Manage Profile</h1>
+					<h1>Mise à jour de votre profil</h1>
 				</div>
 			</div>
 		</div>
@@ -64,33 +64,33 @@
 	<form method="POST" action="" id="regform">
 		<table border=0 align="center">
 			<tr>
-				<td><label>Change Your First Name :</label></td>
+				<td><label>Changer votre nom :</label></td>
 				<td><input type="text" class="form-control" name="fname" value="<?php echo $fname;?>"></td>
 			</tr>
 			<tr>
-				<td><label>Change Your Last Name :</label></td>
+				<td><label>Changer votre prénom :</label></td>
 				<td><input type="text" class="form-control" name="lname" value="<?php echo $lname;?>"></td>
 			</tr>
 			<div class="checkbox">
 				<tr>
-					<td><label>Gender :</label></td>
+					<td><label>Genre :</label></td>
 					<td><input type="radio" name="gender" value="male" <?php if($gender=="male"){ echo "checked";}?>>Male &nbsp; <input type="radio" name="gender" value="female" <?php if($gender=="female"){ echo "checked";}?>>Female</td>
 				</tr>
 			</div>
 			<tr>
-				<td><label>Email address :</label></td>
+				<td><label>Adresse email :</label></td>
 				<td><input type="email" class="form-control" name="email" value="<?php echo $email;?>"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your User Name :</label></td>
+				<td><label>Entrer votre nom d'utilisateur :</label></td>
 				<td><input type="text" class="form-control" name="username" value="<?php echo $username;?>"></td>
 			</tr>
 			<tr>
-				<td><label>Change Password :</label></td>
+				<td><label>Changer votre mot de passe :</label></td>
 				<td><input type="password" class="form-control" name="pass" value="<?php echo $password;?>"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block" name="btn">Update</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block" name="btn">Mise à jour</button></td>
 			</tr>
 		</table>
 	</form>
@@ -110,12 +110,12 @@
 		$result = mysqli_query($strconn,$query);
 		if($result)
 		{
-			echo "<div class='alert alert-success' role='alert'>Profile updated successfully</div>";
+			echo "<div class='alert alert-success' role='alert'>Profil mise à jour avec succès</div>";
 
 	}
 		else
 		{
-			echo "<div class='alert alert-danger' role='alert'>Profile coudnt be updated</div>";
+			echo "<div class='alert alert-danger' role='alert'>Erreur dans la mise à jour</div>";
 
 	}
 		}
