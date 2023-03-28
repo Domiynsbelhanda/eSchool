@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
 	<meta name="author" content="webThemez.com">
-	<title>About - Techro Bootstrap template</title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
-					<h1>Download E-books</h1>
+					<h1>Telecharger des eBooks</h1>
 				</div>
 			</div>
 		</div>
@@ -43,23 +43,23 @@
       <p>These e-Books are free to download</p>
 		  <p><b>1)HTML Basics</b></p>
 	      <p>This book unveils the key features of HTML.This books provide a practical guide to building webpages using HTML5</p>
-	 <br><a href="html.pdf" class="btn" download>Download</a><br>
+	 <br><a href="html.pdf" class="btn" download>Telecharger</a><br>
 	
 	<br><p><b>2)CSS Tutorials</b></p>
 	      <p>This tutorial covers all versions and gives a complete understanding of CSS, starting from its basics to advanced concepts.</p>
-	 <br><a href="css_tutorial.pdf" class="btn" download>Download</a><br>
+	 <br><a href="css_tutorial.pdf" class="btn" download>Telecharger</a><br>
 	 
 	 <br><p><b>3)CSS_intro</b></p>
 	      <p>This book gives a complete understanding from basic to advance.</p>
-	 <br><a href="CSS_intro.pdf" class="btn" download>Download</a><br>
+	 <br><a href="CSS_intro.pdf" class="btn" download>Telecharger</a><br>
 		
 	<br><p><b>4)CSS</b></p>
 	      <p>All about CSS.</p>
-	 <br><a href="full.pdf" class="btn" download>Download</a><br>
+	 <br><a href="full.pdf" class="btn" download>Telecharger</a><br>
 	 
 	 <br><p><b>5)Complete HTML</b></p>
 	      <p>This book covers all topics of HTML.</p>
-	 <br><a href="Handout_5_PF.pdf" class="btn" download>Download</a>
+	 <br><a href="Handout_5_PF.pdf" class="btn" download>Telecharger</a>
 	</div> 
 	
 <?php

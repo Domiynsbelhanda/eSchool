@@ -45,7 +45,7 @@
 
 	<div id="courses">
 		<div class="container">
-			<h2>Cours disponibles</h2>
+			<h2>Cours populaires</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="featured-box">
