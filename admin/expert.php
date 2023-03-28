@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1>Registration of Expert</h1>
+                    <h1>Enregistrement d'un professeur</h1>
                 </div>
             </div>
         </div>
@@ -42,40 +42,40 @@
 	<form method="POST" action="#">
 		<table border=0 align="center">
 			<tr>
-				<td><label>Enter Your First Name :</label></td>
-				<td><input type="text" class="form-control" name="fname" placeholder="First Name"></td>
+				<td><label>Entrer le nom :</label></td>
+				<td><input type="text" class="form-control" name="fname" placeholder="Nom"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your Middle Name :</label></td>
-				<td><input type="text" class="form-control" name="mname" placeholder="Middle Name"></td>
+				<td><label>Entrer le post nom :</label></td>
+				<td><input type="text" class="form-control" name="mname" placeholder="Post Nom"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your Last Name :</label></td>
-				<td><input type="text" class="form-control" name="lname" placeholder="Last Name"></td>
+				<td><label>Prénom :</label></td>
+				<td><input type="text" class="form-control" name="lname" placeholder="Prénom"></td>
 			</tr>
 			<div class="checkbox">
 				<tr>
-					<td><label>Gender :</label></td>
-					<td><input type="radio" name="gender" value="male">Male &nbsp; <input type="radio" name="gender" value="female">Female</td>
+					<td><label>Genre :</label></td>
+					<td><input type="radio" name="gender" value="male">Homme &nbsp; <input type="radio" name="gender" value="female">Femme</td>
 				</tr>
 			</div>
 			<tr>
-				<td><label>Email address :</label></td>
-				<td><input type="email" class="form-control" name="email" placeholder="Email ID"></td>
+				<td><label>Adresse email :</label></td>
+				<td><input type="email" class="form-control" name="email" placeholder="Adresse Email"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your User Name :</label></td>
-				<td><input type="text" class="form-control" name="username" placeholder="User Name"></td>
+				<td><label>Entrer le nom d'utilisateur :</label></td>
+				<td><input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your Password :</label></td>
-				<td><input type="password" class="form-control" name="pass" placeholder="Password"></td>
+				<td><label>Entrer le mot de passe :</label></td>
+				<td><input type="password" class="form-control" name="pass" placeholder="Mot de passe"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block"name="btn">Register</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block"name="btn">Enregistrer</button></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block">Reset</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block">Restaurer</button></td>
 			</tr>
 		</table>
 	</form>
@@ -93,11 +93,11 @@
 		$result = mysqli_query($strconn,$query);
 		if($result)
 		{
-			echo "<div class='alert alert-success' role='alert'>Successfull</div>";
+			echo "<div class='alert alert-success' role='alert'>Enregistrement réussi</div>";
 		}
 		else
 		{
-			echo "<div class='alert alert-danger' role='alert'>Something went wrong.Please try again later !</div>";
+			echo "<div class='alert alert-danger' role='alert'>Une erreur c'est produite, réessayez plus tard. !</div>";
 		}
 		}
 	?>

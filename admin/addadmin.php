@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1>Add Admin</h1>
+                    <h1>Ajout d'un Admin</h1>
                 </div>
             </div>
         </div>
@@ -42,18 +42,18 @@
 	<form method="POST" action="#">
 		<table border=0 align="center">
 			<tr>
-				<td><label>Enter Your User Name :</label></td>
-				<td><input type="text" class="form-control" name="username" placeholder="User Name"></td>
+				<td><label>Entrer le nom d'utilisateur :</label></td>
+				<td><input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Your Password :</label></td>
-				<td><input type="password" class="form-control" name="pass" placeholder="Password"></td>
+				<td><label>Entrer le mot de passe :</label></td>
+				<td><input type="password" class="form-control" name="pass" placeholder="Mot de passe"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block" name="btn">Register</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block" name="btn">Enregistrer</button></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block">Reset</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block">Restaurer</button></td>
 			</tr>
 		</table>
 	</form>
@@ -66,11 +66,11 @@
 		$result = mysqli_query($strconn,$query);
 		if($result)
 		{
-			echo "<div class='alert alert-success' role='alert'>Successfull</div>";
+			echo "<div class='alert alert-success' role='alert'>Enregistrement réussi</div>";
 		}
 		else
 		{
-			echo "<div class='alert alert-danger' role='alert'>Something went wrong.Please try again later !</div>";
+			echo "<div class='alert alert-danger' role='alert'>Une erreur s'est produite, veuillez réessayez</div>";
 		}
 		}
 	?>

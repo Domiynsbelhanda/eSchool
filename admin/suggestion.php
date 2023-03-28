@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -34,7 +34,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
-					<h1>Suggestion From Expert</h1>
+					<h1>Suggestion des professeurs</h1>
 				</div>
 			</div>
 		</div>

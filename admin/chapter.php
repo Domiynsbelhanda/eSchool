@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
+	<title>eLearning - Plateforme gratuite d'enseignement en ligne.</title>
 	<link rel="favicon" href="../assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1>Add Chapter</h1>
+                    <h1>Ajout d'un chapitre</h1>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
 	<form method="POST" action="#">
 		<table border=0 align="center">
 			<tr>
-				<td><label>Select Subject :</label></td>
+				<td><label>Selectionne le cours :</label></td>
 				<td>
 				<select name="chapter" class="form-control">
 				<?php
@@ -66,22 +66,22 @@
 				</td>
 			</tr>
 			<tr>
-				<td><label>Enter Chapter Title :</label></td>
+				<td><label>Entrer le titre du chapitre :</label></td>
 				<td><input type="text" class="form-control" name="title" placeholder="Subject Title"></td>
 			</tr>
 			<tr>
-				<td><label>Enter Info :</label></td>
+				<td><label>Entrer les détails :</label></td>
 				<td><textarea rows="10" cols="50" class="form-control" 
 			placeholder="Infromation" id="message" name="info" required
 			data-validation-required-message="Please enter your message" minlength="5" 
 			data-validation-minlength-message="Min 5 characters" style="resize:none;margin-top:10px"></textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block" name="submit">Create Chapter</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block" name="submit">Créer le chapitre</button></td>
 			</tr>
 			
 			<tr>
-				<td colspan="2" align="center"><button class="btn btn-block">Reset</button></td>
+				<td colspan="2" align="center"><button class="btn btn-block">Restaurer</button></td>
 			</tr>
 		</table>
 	</form>
@@ -96,11 +96,11 @@
 			$result = mysqli_query($strconn,$query);
 			if($result)
 			{
-				echo "<div class='alert alert-success' role='alert'>Chapter added successfully</div>";
+				echo "<div class='alert alert-success' role='alert'>Le chapitre a été ajouté avec succès</div>";
 			}
 			else
 			{	
-				echo "<div class='alert alert-danger' role='alert'>Something went wrong.Please try again later !</div>";
+				echo "<div class='alert alert-danger' role='alert'>Une erreur s'est produite, réessayez plus tard.</div>";
 			}
 		}
 	?>
